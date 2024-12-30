@@ -15,14 +15,6 @@ This is a simple and intuitive Todo application built using Flutter. The app all
 - Delete tasks that are no longer needed.  
 - User-friendly interface with a clean design.  
 
-
-## Screenshots:
- 
-- ![Screenshot_1735575860](https://github.com/user-attachments/assets/bd7cc975-f8e3-488e-a236-9abb292b1a75)
-
-- ![Screenshot_1735575874](https://github.com/user-attachments/assets/59f95cd4-29c0-40d7-8ddb-626746578555)
-
-
 ## Getting Started
 
 ### Prerequisites
