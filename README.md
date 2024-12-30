@@ -4,13 +4,51 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+# Flutter Todo App
 
-A few resources to get you started if this is your first Flutter project:
+This is a simple and intuitive Todo application built using Flutter. The app allows users to manage tasks efficiently with features like task creation, updating, and deletion.  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Create new tasks with ease.  
+- Mark tasks as completed.  
+- Delete tasks that are no longer needed.  
+- User-friendly interface with a clean design.  
+
+
+## Screenshots
+![S![Screenshot_1735575874](https://github.com/user-attachments/assets/a4452c72-360a-43a3-8ec4-c0f609bc236a)
+creenshot_1735575860](https://github.com/user-attachments/assets/a8253a84-ad27-4b1e-9be1-16516e0f8738)
+
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed on your system:  
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)  
+- Dart SDK  
+- An IDE such as [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/) with Flutter and Dart plugins.  
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mohajjalinkhan/todo_app.git
+2. Navigate to the project directory:
+ - cd todo_app
+3. Fetch the required dependencies:
+ - flutter pub get
+4. Run the application:
+ - flutter run
+
+## Usage
+- Launch the app on your device or emulator.
+- Add new tasks by entering details in the provided input field.
+- View your tasks in a list format.
+- Mark tasks as completed or delete them as needed.
+- Technologies Used
+- Flutter: For creating a cross-platform mobile application.
+- Dart: As the programming language.
