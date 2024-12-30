@@ -9,20 +9,35 @@ class TodoHomePage extends StatefulWidget {
 }
 
 class _TodoHomePageState extends State<TodoHomePage> {
+// added controller to take user input
+  final _controller = TextEditingController();
+
   // added array and set one sample value text = "" and for check box = false
   List todoList = [
     ["this is first todo in the app", false],
-    ["this is second todo in the app", false],
   ];
 
   // check box function
   void chekBoxChanged(int index) {
     setState(() {
       todoList[index][1] = !todoList[index][1];
+      // clearing old text store in side _controller
+      _controller.clear();
     });
   }
-  // adding add todo funcnality
 
+  // adding add todo funcnality
+  void addNewTask() {
+    setState(() {
+      todoList.add([_controller.text, false]);
+    });
+  }
+  // deleteTask function
+  void deleteTasks(int index) {
+    setState(() {
+      todoList.removeAt(index);
+    });
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,6 +60,7 @@ class _TodoHomePageState extends State<TodoHomePage> {
             taskName: todoList[index][0],
             taskComplited: todoList[index][1],
             onChange: (value) => chekBoxChanged(index),
+            deleteFunction: (context) => deleteTasks(index),
           );
         },
       ),
@@ -53,7 +69,10 @@ class _TodoHomePageState extends State<TodoHomePage> {
           Expanded(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
+
+              // text field to store user text
               child: TextField(
+                controller: _controller,
                 decoration: InputDecoration(
                   hintText: "Add todo items",
                   filled: true,
