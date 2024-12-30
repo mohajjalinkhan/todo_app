@@ -16,9 +16,11 @@ This is a simple and intuitive Todo application built using Flutter. The app all
 - User-friendly interface with a clean design.  
 
 
-## Screenshots
-![S![Screenshot_1735575874](https://github.com/user-attachments/assets/a4452c72-360a-43a3-8ec4-c0f609bc236a)
-creenshot_1735575860](https://github.com/user-attachments/assets/a8253a84-ad27-4b1e-9be1-16516e0f8738)
+## Screenshots:
+
+![Screenshot_1735575860](https://github.com/user-attachments/assets/bd7cc975-f8e3-488e-a236-9abb292b1a75)
+
+![Screenshot_1735575874](https://github.com/user-attachments/assets/59f95cd4-29c0-40d7-8ddb-626746578555)
 
 
 ## Getting Started
